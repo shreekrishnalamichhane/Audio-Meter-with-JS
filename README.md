@@ -7,7 +7,8 @@ It will take the audio from the microphone and display the audio level in a canv
 > default due to security concerns, you cannot start the **window.AudioContext** on the page onload.
 
 ### Error Message from Crome Console.
-
+>The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on 
+>the page. https://goo.gl/7K7WLu
 ![Error](/images/error.png)
 
 So, Here I use a button to solve that problem. So the function will load only you click on that button.
