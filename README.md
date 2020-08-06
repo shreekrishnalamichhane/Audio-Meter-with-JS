@@ -2,6 +2,7 @@
 This is the simple Audio Visualizer using JS.
 It will take the audio from the microphone and display the audio level in a canvas at realtime. 
 
+Demo Link: https://shreekrishnalamichhane.github.io/Audio-Meter-with-JS/
 > 🔴🔴Note: 
 > Since Modern Browsers like Crome,Firebox, etc  blocks the microphone access on **page onload** by
 > default due to security concerns, you cannot start the **window.AudioContext** on the page onload.
